@@ -1,0 +1,35 @@
+﻿<!doctype html>
+<html>
+<head>
+<title>lab.javascript2</title>
+<meta charset "UTF-8">
+<script src="java.js">
+</script>
+</head>
+<body bgcolor="pink">
+<div>
+<p><i>Создать группу чекбоксов, с помощью которой можно выбрать цвет посещенной
+гиперсылки документа (создайте четыре варианта цветов). Создайте обработку события
+кнопки формы onclickt появлением строки «ДОБРЫЙ ДЕНЬ» в многостроковом поле ввода
+информации данной формы.
+</i>
+</p>
+</div>
+<p id="t1">Гиперссылка</p>
+<form>
+            <p>Цвет посещенной гиперсылки документа:</p>
+            <input type="checkbox" onclick="g()">Красный<br>
+            <input type="checkbox" onclick="g1()">Синий<br>
+            <input type="checkbox" onclick="g2()">Зеленый<br>
+            <input type="checkbox" onclick="g3()">Желтый<br>
+
+        </form>
+
+<form action="handler.php">
+  <p><b>Введите текст:</b></p>
+  <p><textarea ROWS=5 COLS=50 id="area1">Введите текст</textarea></p>
+  <p><input type="submit" onclick="g4()"></p>
+ </form>
+
+</body>
+</html>
