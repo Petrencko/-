@@ -45,24 +45,30 @@ y=parseInt($('t2').value);
 z=parseInt($('t3').value);
  if(x<=y)
 {
-if(x<=z)
-{
-$('t4').value=Это х;
+$('t4').value="Это х";
 }
 else 
 {
-$('t4').value=Это z;
+$('t4').value="Это y";
 }
+if(x<=z)
+{
+$('t4').value="Это х";
 }
+else 
+{
+$('t4').value="Это z";
+}
+
 else 
 {
 if(y<=z)
 {
-$('t4').value=Это y;
+$('t4').value="Это y";
 }
 else 
 {
-$('t4').value=Это z;
+$('t4').value="Это z";
 }
 }
 
