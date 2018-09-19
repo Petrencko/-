@@ -4,6 +4,23 @@
 <title>Петренко Олена Результати роботи за темою</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="styleKR1.css">
+            <script type="text/javascript">
+function f1()
+{            
+var x;
+var y;
+var z;
+x=parseInt($('t1').value);
+y=parseInt($('t2').value);
+z=parseInt($('t3').value);
+min=x; t="It`s  x";            
+ if(min>y)
+{min=y; t="It`s  y";}
+ if(min>z)
+{min=z; t="It`s  z";}
+$('t4').value=min+t;
+}
+</script>
 </head>
 <body>
 <div id="b1">
@@ -36,41 +53,7 @@
  <p><input id="t4" type="button" value="Решение" onclick="f1()"/></p>
  <p><textarea name="comment" id="t4" cols="40" rows="3"></textarea></p>           
    </form>           
-<script type="text/javascript">
-function f1()
-            {            
-var x;
-var y;
-var z;
-x=parseInt($('t1').value);
-y=parseInt($('t2').value);
-z=parseInt($('t3').value);
- if(x<=y)
-{
 
-if(x<=z)
-{
-$('t4').value="Это х";
-}
-else 
-{
-$('t4').value="Это z";
-}
-}
-else 
-{
-if(y<=z)
-{
-$('t4').value="Это y";
-}
-else 
-{
-$('t4').value="Это z";
-}
-}
-
-            }
-</script>
             
 </div>
 
