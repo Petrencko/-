@@ -28,53 +28,41 @@
 <div id="b4">
  <form action="">
  <p>a=
-<input name="t1" id="tt1" type="text" size="25" maxlength="30"/></p>
+<input name="t1" id="t1" type="text" size="25" maxlength="30"/></p>
  <p>b=
-<input name="t2" id="tt2" type="text" size="25" maxlength="30"/></p>
-<input name="t3" id="tt3" type="text" size="25" maxlength="30"/></p>            
+<input name="t2" id="t2" type="text" size="25" maxlength="30"/></p>
+<p>c=
+<input name="t3" id="t3" type="text" size="25" maxlength="30"/></p>            
  <p><input id="tt4" type="button" value="Рішення" onclick="f1()"/></p>
-<p><textarea name="comment" id="tt3" cols="40" rows="3"></textarea></p>
+ <p><textarea name="comment" id="t4" cols="40" rows="3"></textarea></p>           
    </form>           
 <script type="text/javascript">
 var x;
 var y;
 var z;
-x=parseInt($('tt1').value);
-y=parseInt($('tt2').value);
-z=parseInt($('tt3').value);
-if(x=="")
-{
-alert("Вы не ввели первое число X!")
-}
-else if(y=="")
-{
-alert("Вы не ввели второе число Y!")
-}
-else if(z=="")
-{
-alert("Вы не ввели третье число Z!")
-}
-
-else if(x<=y)
+x=parseInt($('t1').value);
+y=parseInt($('t2').value);
+z=parseInt($('t3').value);
+ if(x<=y)
 {
 if(x<=z)
 {
-alert("Это Х")
+$('t4').value=Это х;
 }
 else 
 {
-alert("Это Z")
+$('t4').value=Это z;
 }
 }
 else 
 {
 if(y<=z)
 {
-alert("Это Y")
+$('t4').value=Это y;
 }
 else 
 {
-alert("Это Z")
+$('t4').value=Это z;
 }
 }
 
