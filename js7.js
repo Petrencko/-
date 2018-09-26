@@ -10,9 +10,10 @@ elements.push(element);
 }
 return elements; }
 function f1()
-{A=1, k=1
- var N;
-N=parseInt($('t3').value);
+  N=parseFloat($('t3').value);
+A=1, k=1
+ for(k=1;k<=N;k++)
+{ 
 while (k<=N, 
 {A=(A+1)/k;
 k=k+1}
