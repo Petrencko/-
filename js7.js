@@ -11,7 +11,7 @@ elements.push(element);
 return elements; }
 function f1()
 {A=1, k=1 
-while (k<=N, N=)
+while (k<=N, N=parseInt($("t3").value))
 {A=(A+1)/k;
 k=k+1}
 $('t2').value=A+'k'=k+'A'=+A;
