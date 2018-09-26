@@ -14,6 +14,6 @@ function f1()
 while (k<=N)
 {A=(A+1)/k;
 k=k+1}
-$('t2').value=A
+$('t2').value=A+'k'=k+'A'=+A;
 }
 
