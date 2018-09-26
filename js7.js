@@ -11,7 +11,7 @@ elements.push(element);
 return elements; }
 function f1()
 {A=1, k=1 
-while (k<=2)
+while (k<=N)
 {A=(A+1)/k;
 k=k+1}
 $('t2').value=A
