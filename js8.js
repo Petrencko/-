@@ -10,8 +10,7 @@ elements.push(element);
 }
 return elements; }
 function f1()
-{            
-
+{
 N=parseFloat($('t1').value);
 K=parseFloat($('t2').value);
 A=1
