@@ -18,6 +18,6 @@ for(k=1;k<=N;k++)
 {
 S=(A+1)/k;
 }
-$('t2').value=S;
+$('t2').value= S;
 }
 
