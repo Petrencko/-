@@ -11,15 +11,14 @@ elements.push(element);
 return elements; }
 function f1()
 {            
-var N;
-var K;
 
-N=parseInt($('t1').value);
-K=parseInt($('t2').value);
+N=parseFloat($('t1').value);
+K=parseFloat($('t2').value);
 A=1
-while (k<=K, n<=N, k++, n++;)
-{A=1^k+2^k+...+n^k;
-k=K+1;
-n=N+1}
+for (i=2; i<=N; i++;)
+{a=i;
+for(j=2; j<=K; j++;)
+{a=a*i;
+A=A+a;}
 $('t4').value=A;
 }
