@@ -10,19 +10,16 @@ elements.push(element);
 }
 return elements; }
 function f1()
-{            
-A=parseInt($('t1').value);
-
-var lgth = prompt ('Введите A: ', '');
-mark:
-for(var i=1; i<lgth; i++) {
+{A=parseFloat($('t1').value);
+ B=parseFloat($('t2').value);
  
-  for(var j=2; j<i; j++) {
-    if ( i % j == 0) continue mark;
-  }
-   
-  alert(i);
+                     for(i=A;i<=B;i++) 
+		       
+                     { 
+                      for(j=0;j<i;j++)
+                     { $('t3').value=i+" ";
+		  	}
+                        
 }
-
 
 
