@@ -16,11 +16,10 @@ function f1()
  K=parseFloat($('t2').value);
  Sum=1;
  
-                     for(i=2;i<=N;i++) 
-		       {a=i;
-                           for(j=2;j<=K;j++)
-                       {a=a*i;
-                        Sum=Sum+a;}
-		  	$('t3').value=Sum;
-                                
-		             }
+              for(i=2;i<=N;i++) 
+		   {a=i;
+               for(j=2;j<=K;j++)
+                    {a=a*i;
+                     Sum=Sum+a;}
+		$('t3').value=Sum;
+    }
