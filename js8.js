@@ -13,11 +13,11 @@ function f1()
 {
 N=parseFloat($('t1').value);
 K=parseFloat($('t2').value);
-A=1
+Sum=1
 for (i=2; i<=N; i++;)
 {a=i;
 for(j=2; j<=K; j++;)
 {a=a*i;
-A=A+a;}
-$('t4').value=A;
+Sum=Sum+a;}
+$('t4').value=Sum;
 }
