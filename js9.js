@@ -11,14 +11,18 @@ elements.push(element);
 return elements; }
 function f1()
 {            
-var A;
-var B;
-
 A=parseInt($('t1').value);
-B=parseInt($('t2').value);
-A<B
-while ()
-{Z=;
+
+var lgth = prompt ('Введите A: ', '');
+mark:
+for(var i=1; i<lgth; i++) {
+ 
+  for(var j=2; j<i; j++) {
+    if ( i % j == 0) continue mark;
+  }
+   
+  alert(i);
 }
-$('t4').value=Z;
-}
+
+
+
