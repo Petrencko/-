@@ -12,14 +12,14 @@ return elements; }
 
 
 function f1()
-{A=parseFloat($('tt4').value);
- B=parseFloat($('tt5').value);
+{A=parseFloat($('t4').value);
+ B=parseFloat($('t5').value);
  
                      for(i=A;i<=B;i++) 
 		       
                      { 
                       for(j=0;j<i;j++)
-                     { $('tt6').value=i+" ";
+                     { $('t6').value=i+" ";
 		  	}
                         
 }
