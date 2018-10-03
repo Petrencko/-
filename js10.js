@@ -16,7 +16,7 @@ function f1()
         N=1+2+...+K;
 	while(N>=K)
 	{
-         K=N-1-2-...-K+1;
+         K=N-2-...-K;
 	}			
 	$('t2').value=K+';'+N;
 }
