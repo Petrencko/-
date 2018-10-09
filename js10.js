@@ -12,12 +12,11 @@ return elements; }
 
 function f1()
 {N=parseFloat($('t1').value);
-                       K=0;
+                       K=1;
                 while(1+2+3+...+K<=N)
 		       K++;
                        K--;
-                  Z=1+2+3+...+K;
-		 $('t2').value=K+' '+Z;
+		 $('t2').value=K;
                              
 
  }
