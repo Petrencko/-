@@ -16,6 +16,7 @@ function f1()
                 while(1+2+3+...+K<=N)
 		       K++;
                        K--;
+                  Z=1+2+3+...+K;
 		 $('t2').value=K;
                              
 
