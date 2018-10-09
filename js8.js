@@ -13,16 +13,16 @@ return elements; }
 
 function f1()
 {N=parseFloat($('t1').value);
- K=parseFloat($('t2').value);
- Sum=1;
- 
-                     for(i=2;i<=N;i++) 
-		       {a=i;
-                           for(j=2;j<=K;j++)
-                       {a=a*i;
-                        Sum=Sum+a;}
-		  	$('t3').value=Sum;
-                                
-		             }
+                       K=0;
+                       Sum=0;
+                   for(i=0; i<=K; i++;)
+                       {
+                          Sum=Sum+i;
+                       }
+                while( Sum<=N)
+                       K++;
+                       i++;
+		 $('t2').value=K;
+                             
 
-}
+ }
