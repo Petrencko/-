@@ -19,6 +19,6 @@ function f1()
                        K--;
 		 $('t2').value=K;
                              
-
+}
  
 
