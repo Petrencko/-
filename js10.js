@@ -17,7 +17,7 @@ function f1()
 		       K++;
                        K--;
                   Z=1+2+3+...+K;
-		 $('t2').value=K;
+		 $('t2').value=K+' '+Z;
                              
 
  }
