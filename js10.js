@@ -14,15 +14,12 @@ return elements; }
 function f1()
 	
 {N=parseFloat($('t1').value);
- sum=0;
-for(i=0; i<=K; i++)
-{ sum=sum+i;
-}
-                       K=1;
-                while(sum<=N)
-		       K++;
-                       K--;
-		 $('t2').value=K+' '+sum;
+ K=1;
+ S=0;
+                while(K<N, S<N)
+		       S=S+K;
+                       K=K+1;
+		 $('t2').value=K+' '+S;
                              
 
  }
