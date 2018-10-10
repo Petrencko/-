@@ -22,7 +22,7 @@ for(i=0; i<=K; i++)
                 while(sum<=N)
 		       K++;
                        K--;
-		 $('t2').value=K;
+		 $('t2').value=K+' '+sum;
                              
 
  }
