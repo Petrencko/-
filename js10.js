@@ -12,11 +12,12 @@ return elements; }
 
 
 function f1()
-sum=0;
+	
+{N=parseFloat($('t1').value);
+ sum=0;
 for(i=0; i<=K; i++)
 { sum=sum+i;
-}	
-{N=parseFloat($('t1').value);
+}
                        K=1;
                 while(sum<=N)
 		       K++;
