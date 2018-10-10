@@ -17,9 +17,9 @@ function f1()
  K=1;
  S=0;
                 while(K<N, S<N)
+	               S=S+K;	
 		       K=K+1;
-		       S=S+K;
-
+ 
 		 $('t2').value=K;
                              
 
