@@ -14,7 +14,7 @@ return elements; }
 function signs()
 
 {
-var start = 1901, birthyear = document.form.year.value, date=document.form.date.value, month=document.form.month.selectedIndex;
+var date=document.form.date.value, month=document.form.month.selectedIndex;
 with (document.form.sign){
 if (month == 1 && date >=20 || month == 2 && date <=18) {value = "Водолей, Воздух";}
 if (month == 1 && date > 31) {value = "Не понял?";}
