@@ -11,7 +11,7 @@ elements.push(element);
 return elements; }  
 
 
-function signs()
+function sign()
 
 {
 var date=document.form.date.value, month=document.form.month.selectedIndex;
