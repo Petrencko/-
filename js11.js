@@ -11,7 +11,7 @@ elements.push(element);
 return elements; }  
 
 
-function f1()
+function signs()
 
 {
 var start = 1901, birthyear = document.form.year.value, date=document.form.date.value, month=document.form.month.selectedIndex;
