@@ -9,13 +9,14 @@ return element;
 elements.push(element); 
 } 
 return elements; }  
-var today=new Date();
+var today=new Date(date);
+var today=new Month(month);
 
 function signs()
 
 {
-var month=today.getMonth();
-  var date=today.getDate();
+var month=today.getMonth(month);
+  var date=today.getDate(date);
 if (month == 1 && date >=20 || month == 2 && date <=18) {$('r1').value = "Водолей, Воздух";}
 if (month == 1 && date > 31) {$('r1').value = "Не понял?";}
 if (month == 2 && date >=19 || month == 3 && date <=20) {$('r1').value = "Pыбы, Вода";}
