@@ -9,13 +9,13 @@ return element;
 elements.push(element); 
 } 
 return elements; }  
-
+var today=new Date();
 
 function signs()
 
 {
-var date=document.form.date.value, month=document.form.month.selectedIndex;
-with  (document.form.sign){
+var month=today.getMonth();
+  var date=today.getDate();
 if (month == 1 && date >=20 || month == 2 && date <=18) {value = "Водолей, Воздух";}
 if (month == 1 && date > 31) {value = "Не понял?";}
 if (month == 2 && date >=19 || month == 3 && date <=20) {value = "Pыбы, Вода";}
