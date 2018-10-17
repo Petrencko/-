@@ -21,7 +21,7 @@ function f1()
 		       K=K+1;}
                        
  
-		 $('t2').value=K+' '+S;
+		 $('t2').value=(K-1)+' '+S;
                              
 
  }
