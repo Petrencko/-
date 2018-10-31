@@ -36,7 +36,7 @@ if (month == 8 && date > 31) {$('r1').value = "Тупой что ли?";}
 if (month == 9 && date >=23 || month == 10 && date <=22) {$('r1').value = "Весы, Воздух";}
 if (month == 9 && date > 30) {$('r1').value = "Ни за что!";}
 if (month == 10 && date >=23 || month == 11 && date <=21) {$('r1').value = "Скорпион, Вода";}
-if (month == 10 && date > 32) {$('r1').value = "Попробуй еще!";}
+if (month == 10 && date > 31) {$('r1').value = "Попробуй еще!";}
 if (month == 11 && date >=22 || month == 12 && date <=21) {$('r1').value = "Стрелец, Огонь";}
 if (month == 11 && date > 30) {$('r1').value = "Забудь!";}
 if (month == 12 && date >=22 || month == 1 && date <=19) {$('r1').value = "Козерог, Земля";}
