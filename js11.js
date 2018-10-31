@@ -15,6 +15,8 @@ var today=new Date();
 function signs()
 
 {
+  today.setDate("date");
+  today.setMonth("month");
 var month=today.getMonth();
   var date=today.getDate();
 if (month == 1 && date >=20 || month == 2 && date <=18) {$('r1').value = "Водолей, Воздух";}
