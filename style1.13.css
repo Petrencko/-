@@ -1,0 +1,17 @@
+﻿#header{
+position:relative;
+top:0px;
+left:0px;
+width:200px;
+height:300px;
+border:1px solid black;
+padding: 1px;
+}
+#v1{
+position:absolute;
+top:0px;
+left:0px;
+width:200px;
+height:300px;
+z-index:1;
+}
