@@ -4,7 +4,27 @@
 <head>
 <title>Петренко Олена Результати роботи за темою</title>
 <link href="style1.13.css" rel="stylesheet" type="text.css" />
-<script src="gif13.js"></script>
+<script>
+var t;
+var r1=255;
+var g1=255;
+var b1=255;
+function f()
+{
+var x1=document.getElementById('b1');
+x1.style.left=(parseInt(x1.style.left)+100)+'px';
+x1.style.top=(parseInt(x1.style.top)+100)+'px';
+r1-=100;
+str1='rgb('+r1+', '+g1+', '+b1+')';
+x1.style.backgroundColor=str1;
+}
+function k()
+{t=setInterval('f()',1000);}
+function g()
+{
+clearInterval(t);
+}
+</script>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="styleKR1.css">
 </head>
@@ -42,12 +62,13 @@
 </p>
 
 
- <div id="header">
- <img src="images1.gif" alt="sapka" id="v1">
-<p>
-<input name="t1" id="t1" type="text" size="25" maxlength="30"/></p>
- <p><input type="button" value="Движение" onclick="f()"/></p>
- </div>
+ <div id="b1" style="position:absolute; top:0px; left:200px;background-color:#ffffff;">
+<img src="1.gif" alt="жук" id="tt1">
+</div>
+<form action="">
+ <p><input type="button" value="Решение" onclick="k()"/></p>
+ <p><input type="button" value="Стоп" onclick="g()"/></p>
+</form>
 
 </div>
 
