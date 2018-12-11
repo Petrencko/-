@@ -1,29 +1,17 @@
-﻿
 <!doctype html>
 <html>
 <head>
-<title>Петренко Олена Результати роботи за темою</title>
+<title>Движение. Петренко</title>
+<meta charset="UTF-8">
 <script>
-function $() 
-{ var elements = new Array(); 
-for (var i = 0; i < arguments.length; i++) 
-{ var element = arguments[i]; 
-if (typeof element == 'string') 
-element = document.getElementById(element); 
-if (arguments.length == 1) 
-return element; 
-elements.push(element); 
-} 
-return elements; }
-
 var t;
-var r1= 0;
-var g1= 255;
-var b1= 0;
+var r1=0;
+var g1=140;
+var b1=10;
 function f()
 	{	
 		var e = document.getElementById('b1');
-		e.style.left=(parseInt(e.style.left)-30)+'px';
+		e.style.left=(parseInt(e.style.left)+30)+'px';
 		if(parseInt(e.style.left) <=0)
 			{
 				s();
@@ -33,69 +21,28 @@ function f()
 		e.style.backgroundColor= color;
 	}
 
-function r()
+function k()
 	{
 		var x = document.getElementById('b1');
-		x.style.left = "900px";
+		x.style.left = "100px";
 		t = setInterval('f()',100);
 	}
-function s()
+function g()
 	{
 		clearInterval(t);
 	}
 
 </script>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="styleKR1.css">
 </head>
-<body>
-<div id="b1">
-
-
-<div id="b2"><h1>Результати роботи за темою Мова HTML</h1>
-            <img src="20.png" width="200" height="130" alt="Логотип">
-</div>
-
-<div id="b3">
-<ol>
-<li><p><a href="basen1.html">Лабораторна робота №1</a></p></li>
-<li><p><a href="basen2.html">Лабораторна робота №2</a></p></li>
-<li><p><a href="basen3.html">Лабораторна робота №3</a></p></li>
-<li><p><a href="basen4.html">Лабораторна робота №4</a></p></li>
-<li><p><a href="basen5.html">Модульна контрольна робота</a></p></li>
-<li><p><a href="LP.html">Лабораторна робота2 JavaScript</a></p></li>  
-<li><p><a href="basen6.html">Лабораторна 3.1</a></p></li>
-<li><p><a href="basen7.html">Лабораторна 3.2</a></p></li> 
-<li><p><a href="basen8.html">Лабораторна 3.3(1)</a></p></li>
-<li><p><a href="basen9.html">Лабораторна 3.3(2)</a></p></li>
-<li><p><a href="basen10.html">Лабораторна 3.4</a></p></li>
-<li><p><a href="basen11.html">Лабораторна №3</a></p></li> 
-<li><p><a href="basen12.html">Лабораторна №4</a></p></li> 
-<li><p><a href="basen13.html">Лабораторна №5</a></p></li>            
-</ol>
-</div>
-
-<div id="b4">
- 
-<p>
-Фон — 10 оттенков синего цвета. Направление: бежим на восток и обратно  до нажатия кнопки стоп,длину пути в одном направлении вводим в поле формы.
-</p>
-
-
- <div id="b1" style="position:absolute; top:0px; left:200px;background-color:#ffffff;">
-<img src="butterfly.gif" alt="butterfly">
-
+<body  id="b2" style="background-color:yellow;" >
+<div id="b1" style="position:absolute; top:0px; left:100px;background-color:#ffffff;">
+<img src="1.gif" alt="жук" id="tt1">
 </div>
 <form action="">
-				<input name="calc" type="button" value="Run" onclick="r()"  style="width:300Px; height:70Px">
-				<input name="calc" type="button" value="Stop" onclick="s()" style="width:300Px; height:70Px">
-			</form>
-
-
-</div>
-
-<div id="b5">&copy ПЕТРЕНКО ЭТО НЕ Я</div>
-
-</div>
+ <p><input type="button" value="Полетели" onclick="k()"/></p>
+ <p><input type="button" value="Стоп" onclick="g()"/></p>
+</form>
+</body>
+</html>
 </body>
 </html>
